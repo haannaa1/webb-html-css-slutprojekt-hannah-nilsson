@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<html>
+<head>
+    <div class="nav1">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projekt.html.html">Projekt </a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+                <li><a href="about.html">Om mig</a></li>
+            </ul>
+        </nav> 
+       </div>
+    
+    <title>Kontakta mig</title>
+    <style>
+         
+        body {
+            background-image: url("bakgrundd.jpeg");
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(186, 177, 177);
+            padding: 20px;
+            box-shadow: 0px 0px 10px #ccc;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px #ccc;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: palevioletred;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: palevioletred;
+        }
+
+        .info-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .info-container img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 5px #ccc;
+        }
+
+        .info-container h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .info-container p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Kontakta mig</h1>
+    <div class="contact-container">
+        <div class="form-container">
+            <h2>Skicka Meddelande</h2>
+            <form>
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-postadress:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Telefonnummer:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Meddelande:</label>
+                <textarea id="message" name="message" required>
