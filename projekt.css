@@ -1,0 +1,41 @@
+/* Navbar */
+nav {
+	background-color: #68004b;
+	color: #fff;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+nav li {
+	margin-right: 20px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Centrera huvudbilden */
+.main-image {
+	display: block;
+	margin: 0 auto;
+	max-width: 50%;
+}
+
+/* Styla de små bilderna */
+.small-images-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.small-image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+.small-image img {
+	max-width: 100%;
+}
